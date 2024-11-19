@@ -1,0 +1,14 @@
+[package]
+name = "grace-srecognition"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.93"
+cpal = "0.15.3"
+dasp_sample = "0.11.0"
+futures = "0.3.31"
+tokio = { version = "1.41.1", features = ["macros", "rt", "rt-multi-thread"] }
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
+vosk = "0.3.1"
